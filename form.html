@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="Form" moreinfo="" />
+  <link rel="icon"
+    href="https://th.bing.com/th?id=OIP.VYXGXzs8rTqEFdaXV4eG8gHaHU&w=251&h=248&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+    type="image" />
+  <link rel="stylesheet" href="form.css" type="text" />
+  <title>Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <form action="form.js">
+      <div class="login-info">
+        <h2>Name:</h2>
+        <input type="text" placeholder="Enter name" />
+        <br />
+        <br />
+        <h2>Email:</h2>
+        <input type="email" placeholder="eg@gmail.com" />
+        <br />
+        <br />
+        <h2>Password:</h2>
+        <input type="password" placeholder="Enter password" />
+        <br />
+        <br />
+        <hr />
+      </div>
+      <div class="gender">
+        <h2>Gender</h2>
+        <label for="Gender1">
+          <input type="radio" name="Gender" id="Gender1" /><b>Male</b>
+        </label>
+        <br />
+        <br />
+        <label for="Gender2">
+          <input type="radio" name="Gender" id="Gender2" /><b>Female</b>
+        </label>
+        <label for="Gender3">
+          <br />
+          <br />
+          <input type="radio" name="Gender" id="Gender3" /><b>Others</b>
+        </label>
+      </div>
+      <hr />
+      <br />
+      <div class="subject">
+        <h3><b>Select the subject you are passed in</b></h3>
+        <br />
+        <label for="math">
+          <input type="checkbox" name="math" id="math" />Math <br /><br />
+        </label>
+        <label for="physics">
+          <input type="checkbox" name="physics" id="physics" />Physics
+          <br /><br />
+        </label>
+        <label for="chemistry">
+          <input type="checkbox" name="chemistry" id="chemistry" />Chemisty
+          <br /><br />
+        </label>
+        <label for="computer">
+          <input type="checkbox" name="computer" id="computer" />Computer
+          <br /><br />
+        </label>
+        <label for="biology">
+          <input type="checkbox" name="biology" id="biology" />Biology
+          <br /><br />
+        </label>
+      </div>
+      <hr />
+      <div class="country">
+        <label for="country">
+          <h3>Select country</h3>
+          <select name="country" id="country">
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="China">China</option>
+          </select>
+          <br />
+          <br>
+        </label>
+      </div>
+      <hr />
+      <h3>watch this</h3>
+      <br />
+      <iframe height: 100px; src="https://www.youtube.com/embed/3uSDMZw7mJE?si=qC9EySXP7dBVs-lW"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <hr />
+      <br />
+      <br />
+      <textarea id="text_area" placeholder="Feel free to write whatever you want here" rows="10"></textarea>
+      <hr>
+      <br>
+      <input type="submit" id="btn" />
+    </form>
+  </div>
+</body>
+
+</html>
